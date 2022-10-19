@@ -22,7 +22,23 @@
       repo: 'https://github.com/Alfredchong726',
       loadSidebar: true,
       loadNavbar: true,
-      el: '#app'
+      el: '#app',
+      mergeNavbar: true,
+      search: {
+        placeholder: {
+          '/zh-cn/': '搜索',
+          '/': 'Type to search'
+        },
+
+        noData: {
+          '/zh-cn/': '找不到结果',
+          '/': 'No Results'
+        },
+
+        depth: 2,
+
+        hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
