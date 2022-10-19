@@ -9,4 +9,4 @@
 - Web Development
 
 [GitHub](https://github.com/Alfredchong726)
-[Get Started](/#/)
+[Get Started](#docsify)
