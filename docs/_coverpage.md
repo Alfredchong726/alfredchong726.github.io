@@ -1,11 +1,12 @@
-![logo](_media/icons8-web-30.png)
-
+<!-- ![logo](_media/icons8-web-30.png) -->
 # Alfred's Blog <small>3.5</small>
 
-> 一个神奇的文档网站生成器。
+> A personal blog that share difference things that regarding to programming, that included
 
-- 简单、轻便 (压缩后 ~21kB)
-- 无需生成 html 文件
-- 众多主题
+- Python
+- JavaScript
+- Web Scrap
+- Web Development
 
 [GitHub](https://github.com/Alfredchong726)
+[Get Started](/#/)
