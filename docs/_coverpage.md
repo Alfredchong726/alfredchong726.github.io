@@ -1,4 +1,4 @@
-![logo](_media/icon.svg)
+![logo](_media/icons8-web-30.png)
 
 # Alfred's Blog <small>3.5</small>
 
