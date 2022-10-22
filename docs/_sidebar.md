@@ -2,6 +2,7 @@
 
 * Python
 
+  * Quick Start
   * Basic
   * Advance
   * Web Scrap
