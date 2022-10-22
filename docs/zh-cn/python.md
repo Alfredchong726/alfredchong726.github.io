@@ -54,9 +54,9 @@ sudo pacman -S python3 python3-pip
 
 
 ## MacOS安装
-使用MacOS应该都知道brew,brew是Mac平台下强大的软件管理工具，官方网站为
+使用MacOS的应该都知道brew,brew是Mac平台下强大的软件管理工具，官方网站为 https://brew.sh/index_zh-cn
 
-1. 首先执行一下命令行下载bew
+1. 首先执行以下命令行下载brew
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
