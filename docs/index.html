@@ -11,6 +11,10 @@
 </head>
 
 <body>
+  <nav>
+    <a href="#/">EN</a>
+    <a href="#/zh-cn/">中文</a>
+  </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -19,28 +23,29 @@
       loadNavbar: true,
       loadSidebar: true,
       relativePath: true,
-      el: '#app',
-      mergeNavbar: true,
-      search: {
-        maxAge: 86400000, 
-        placeholder: {
-          '/zh-cn/': '搜索',
-          '/': 'Type to search'
-        },
-        noData: {
-          '/zh-cn/': '找不到结果',
-          '/': 'No Results'
-        },
-        depth: 2,
-        hideOtherSidebarContent: false,
-      }
+      /* search: { */
+      /*   maxAge: 86400000, */
+      /*   placeholder: { */
+      /*     '/zh-cn/': '搜索', */
+      /*     '/': 'Type to search' */
+      /*   }, */
+      /*   noData: { */
+      /*     '/zh-cn/': '找不到结果', */
+      /*     '/': 'No Results' */
+      /*   }, */
+      /*   depth: 2, */
+      /*   hideOtherSidebarContent: false, */
+      /* } */
+      /*   hideOtherSidebarContent: false, */
+      /* } */
     }
   </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <style>
     body:not(.ready)>nav,
     body:not(.ready) [data-cloak] {
