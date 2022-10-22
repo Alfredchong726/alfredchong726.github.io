@@ -44,9 +44,11 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <style>
-    nav.app-nav {
-      display: block
+    body:not(.ready)>nav,
+    body:not(.ready) [data-cloak] {
+      display: block;
     }
+
   </style>
 </body>
 
