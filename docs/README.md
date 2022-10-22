@@ -1,4 +1,4 @@
-# A List of Project
+# All Categories
 
 ## Python
 - [Quick Start](./python.md)
