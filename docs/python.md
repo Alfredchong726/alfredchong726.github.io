@@ -10,7 +10,10 @@ Since you want to use Python, you need to download Python 3 from the official we
 [Python Official Docs)](https://docs.python.org/3/) <br>
 [Python Modules Docs](https://pypi.org/)
 
-## Windows Installation
+<!-- tabs:start -->
+
+#### **Windows Installation**
+
 1. First go to the download page through the above download address and click the button
 ![](./_media/python_page.png)
 After downloading, double-click the installation package to start downloading python
@@ -24,7 +27,8 @@ First click the win button (which is the key with a window pattern on the keyboa
 ![](./_media/cmd.png)
 
 
-## Linux Installation
+#### **Linux Installation**
+
 - CentOS, RedHat
 ```bash
 sudo yum install -y https://centos7.iuscommunity.org/ius-release.rpm
@@ -53,7 +57,8 @@ Test the installation success on the command line
 ![](./_media/python_linux_test.png)
 
 
-## MacOS Installation
+#### **MacOS Installation**
+
 Anyone who uses MacOS should know brew, brew is a powerful software management tool under the Mac platform, the official website is https://brew.sh/
 
 1. First execute the following command line to download brew
@@ -73,3 +78,4 @@ python 3.6.1 (default, Apr 4 2017, 09:40:21)
 [Gcc 4.2.1 Compatible Apple LLVM 8.1.0(clang-802.0.38)] on darwin
 Type "help" , "copyright" "credits" or "license" for more information.
 ```
+<!-- tabs:end -->
