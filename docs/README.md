@@ -1,7 +1,7 @@
 # A List of Project
 
 ## Python
-- Quick Start
+- [Quick Start](./python.md)
 - Basic
 - Advance
 - Web Scrap
