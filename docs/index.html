@@ -11,33 +11,34 @@
 </head>
 
 <body>
-  <nav>
+  <nav class="nav-bar">
     <a href="#/">EN</a>
     <a href="#/zh-cn/">中文</a>
   </nav>
   <div id="app"></div>
   <script>
     window.$docsify = {
+      loadNavbar: true,
       name: 'Alfred\'s Blog',
       repo: 'https://github.com/Alfredchong726',
-      loadNavbar: true,
       loadSidebar: true,
       relativePath: true,
-      /* search: { */
-      /*   maxAge: 86400000, */
-      /*   placeholder: { */
-      /*     '/zh-cn/': '搜索', */
-      /*     '/': 'Type to search' */
-      /*   }, */
-      /*   noData: { */
-      /*     '/zh-cn/': '找不到结果', */
-      /*     '/': 'No Results' */
-      /*   }, */
-      /*   depth: 2, */
-      /*   hideOtherSidebarContent: false, */
-      /* } */
-      /*   hideOtherSidebarContent: false, */
-      /* } */
+      tabs: {
+        theme: 'material'
+      },
+      search: {
+        maxAge: 86400000,
+        placeholder: {
+          '/zh-cn/': '搜索',
+          '/': 'Type to search'
+        },
+        noData: {
+          '/zh-cn/': '找不到结果',
+          '/': 'No Results'
+        },
+        depth: 2,
+        hideOtherSidebarContent: false,
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
@@ -45,10 +46,21 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <style>
-    .app-nav {
+    body:not(.ready) .app-nav,
+    body:not(.ready)>nav,
+    body:not(.ready) [data-cloak] {
       display: block;
+    }
+
+    nav.nav-bar {
+      display: block;
+    }
+
+    .content {
+      overflow: auto;
     }
   </style>
 </body>

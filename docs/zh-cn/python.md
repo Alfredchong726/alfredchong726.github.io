@@ -10,7 +10,9 @@
 [Python官方文档(中文版)](https://docs.python.org/zh-cn/3/) <br>
 [Python第三方库](https://pypi.org/)
 
-## Windows安装
+<!-- tabs:start -->
+
+## **Windows安装**
 1. 首先通过以上的下载地址到下载页面并点击一下按钮
 ![](../_media/python_page.png)
 下载完后双击安装包开始下载python
@@ -24,8 +26,9 @@
 ![](../_media/cmd.png)
 
 
-## Linux安装
+## **Linux安装**
 - CentOS, RedHat
+
 ```bash
 sudo yum install -y https://centos7.iuscommunity.org/ius-release.rpm
 
@@ -35,6 +38,7 @@ sudo yum install -y python35u python35u-libs python35u-devel python35u-pip
 ```
 
 - Ubuntu,Debian
+
 ```bash
 sudo apt-get install -y python3-dev build-essential libssl-dev libffi-dev libxml2 libxml2-dev libxslt1-dev zlib1g-dev libcurl4-openssl-dev
 
@@ -44,6 +48,7 @@ sudo apt-get install python3-pip
 ```
 
 - Arch, Arco
+
 ```bash
 sudo pacman -S python3 python3-pip
 ```
@@ -53,7 +58,7 @@ sudo pacman -S python3 python3-pip
 ![](../_media/python_linux_test.png)
 
 
-## MacOS安装
+## **MacOS安装**
 使用MacOS的应该都知道brew,brew是Mac平台下强大的软件管理工具，官方网站为 https://brew.sh/index_zh-cn
 
 1. 首先执行以下命令行下载brew
@@ -73,3 +78,4 @@ python 3.6.1 (default, Apr 4 2017, 09:40:21)
 [Gcc 4.2.1 Compatible Apple LLVM 8.1.0(clang-802.0.38)] on darwin
 Type "help" , "copyright" "credits" or "license" for more information.
 ```
+<!-- tabs:end -->

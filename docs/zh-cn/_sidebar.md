@@ -1,4 +1,4 @@
-* [首页](/zh-cn)
+* [首页](./README.md)
 
 * Python
 

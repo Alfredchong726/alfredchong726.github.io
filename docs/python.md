@@ -12,7 +12,7 @@ Since you want to use Python, you need to download Python 3 from the official we
 
 <!-- tabs:start -->
 
-#### **Windows Installation**
+## **Windows Installation**
 
 1. First go to the download page through the above download address and click the button
 ![](./_media/python_page.png)
@@ -27,9 +27,10 @@ First click the win button (which is the key with a window pattern on the keyboa
 ![](./_media/cmd.png)
 
 
-#### **Linux Installation**
+## **Linux Installation**
 
 - CentOS, RedHat
+
 ```bash
 sudo yum install -y https://centos7.iuscommunity.org/ius-release.rpm
 
@@ -39,6 +40,7 @@ sudo yum install -y python35u python35u-libs python35u-devel python35u-pip
 ```
 
 - Ubuntu,Debian
+
 ```bash
 sudo apt-get install -y python3-dev build-essential libssl-dev libffi-dev libxml2 libxml2-dev libxslt1-dev zlib1g-dev libcurl4-openssl-dev
 
@@ -48,6 +50,7 @@ sudo apt-get install python3-pip
 ```
 
 - Arch, Arco
+
 ```bash
 sudo pacman -S python3 python3-pip
 ```
@@ -57,7 +60,7 @@ Test the installation success on the command line
 ![](./_media/python_linux_test.png)
 
 
-#### **MacOS Installation**
+## **MacOS Installation**
 
 Anyone who uses MacOS should know brew, brew is a powerful software management tool under the Mac platform, the official website is https://brew.sh/
 
