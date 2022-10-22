@@ -1,5 +1,9 @@
 * [首页](./README.md)
 
+* IDLE安装
+  * [Pycharm安装](./pycharm.md)
+  * [VsCode安装](./vscode.md)
+
 * Python
 
   * [快速开始](./python.md)

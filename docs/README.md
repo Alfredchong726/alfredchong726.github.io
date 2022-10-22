@@ -1,5 +1,9 @@
 # All Categories
 
+## IDLE Install
+- [Pycharm Installation](./pycharm.md)
+- [VsCode Installation](./vscode.md)
+
 ## Python
 - [Quick Start](./python.md)
 - Basic

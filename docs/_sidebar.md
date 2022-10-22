@@ -1,5 +1,9 @@
 * [Home](/)
 
+* IDLE Installation
+  * [Pycharm Installation](./pycharm.md)
+  * [VsCode Installation](./vscode.md)
+
 * Python
 
   * [Quick Start](./python.md)

@@ -1,5 +1,9 @@
 # 所有分类
 
+## IDLE下载
+- [Pycharm安装](./pycharm.md)
+- [Vscode安装](./vscode.md)
+
 ## Python
 - [快速开始](./python.md)
 - 基础
