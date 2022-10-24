@@ -1,6 +1,8 @@
 ## Vscode Installation
 Start by going to the vscode's official download site https://code.visualstudio.com/Download
 
+## Installation Guide
+
 <!-- tabs:start -->
 ### **Install in Windows**
 After downloading the Windows version of the vscode installation package, double-click the installation package and press Next all the time
@@ -85,3 +87,24 @@ After downloading, double-click on the installation package (some will open auto
 Next open another folder and find Applications and drag and drop Vscode into it to ensure that Vscode can be opened from the Launch pad.
 
 <!-- tabs:end -->
+
+## Vscode Configuration
+
+After downloading Vscode, it cannot be used to write code for the time being, and several plugins need to be installed.
+First, find this icon in the left action bar and click on it
+
+<div style="text-align:center;">
+    <img src="../_media/extension.png"></img>
+</div>
+
+After that enter python in the search bar and find the following plugin to download
+<div style="text-align:center;">
+    <img src="../_media/python_extension.png"></img>
+</div>
+
+Next, go back to the search bar and type code runner to search and download the following plugin
+<div style="text-align:center;">
+    <img src="../_media/code_run_extension.png"></img>
+</div>
+
+Once that's done, we can get started

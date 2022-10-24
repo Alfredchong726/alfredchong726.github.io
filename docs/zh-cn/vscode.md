@@ -1,6 +1,8 @@
 ## Vscode安装
 首先到vscode的官方下载网站 https://code.visualstudio.com/Download
 
+## 安装指南
+
 <!-- tabs:start -->
 ### **Windows安装**
 下载了Windows版本的vscode安装包后双击安装包且一直按Next就可以了
@@ -85,3 +87,24 @@ sudo pacman -S visual-studio-code-bin
 接下来打开另一个文件夹并找到应用程序(Application)并将Vscode拖拽进去，这样就能确保可以从Launch pad中打开Vscode
 
 <!-- tabs:end -->
+
+## Vscode配置
+
+下载完Vscode之后暂且还不能用来写代码，还需要安装几个插件才可以。
+首先，在左边的操作栏中找到这个图标并点击
+
+<div style="text-align:center;">
+    <img src="../_media/extension.png"></img>
+</div>
+
+之后在搜索栏输入python,并找到以下插件下载该插件
+<div style="text-align:center;">
+    <img src="../_media/python_extension.png"></img>
+</div>
+
+接下来，回到搜索栏输入code runner搜索并下载
+<div style="text-align:center;">
+    <img src="../_media/code_run_extension.png"></img>
+</div>
+
+完成后我们就可以正式开始啦
