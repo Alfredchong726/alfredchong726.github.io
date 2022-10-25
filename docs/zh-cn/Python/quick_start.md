@@ -116,5 +116,5 @@ vscode即免费，里面提供的插件也非常多(绝对多过pycharm)，所�
 当然，p如果你是大佬，不介意花钱买pycharm专业版就当我没说
 
 这里有提供Pycharm和Vscode的安装以及设置
-- [Pycharm安装](./pycharm.md)
-- [Vscode安装](./vscode.md)
+- [Pycharm安装](../pycharm.md)
+- [Vscode安装](../vscode.md)

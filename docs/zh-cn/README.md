@@ -4,10 +4,8 @@
 - [Pycharm安装](./pycharm.md)
 - [Vscode安装](./vscode.md)
 
-## Python
-- [快速开始](./python.md)
-- 基础
-    - 
+## [Python](./Python/README.md)
+- [快速开始](./Python/quick_start.md)
 - 高级
 - 网络爬虫
 - 后端
