@@ -1,4 +1,4 @@
-* Translation
+* 语言
 
   * [EN](/)
   * [简体中文](/zh-cn/)
