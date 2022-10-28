@@ -7,7 +7,7 @@
 * [Python](./Python/README.md)
 
   * [快速开始](./Python/quick_start.md)
-  * 基础
+  * [基础](./Python/variable.md)
   * 高级
   * 网络爬虫
   * 后端
