@@ -1,12 +1,12 @@
 * [Home](/)
 
 * IDLE Installation
-  * [Pycharm Installation](./pycharm.md)
-  * [VsCode Installation](./vscode.md)
+  * [Pycharm Installation](../pycharm.md)
+  * [VsCode Installation](../vscode.md)
 
 * Python
 
-  * [Quick Start](./python.md)
+  * [Quick Start](./Python/python.md)
   * Basic
   * Advance
   * Web Scrap

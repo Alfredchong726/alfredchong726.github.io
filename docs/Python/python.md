@@ -101,5 +101,5 @@ VSCODE is free, and there are many plugins available in it (definitely more than
 Of course, if you're rich, don't mind spending money on pycharm pro just as I didn't say, just BUY ITTTTTTT !!!!!!!
 
 Installation and setup of Pycharm and Vscode are available here
-- [Pycharm Installation](./pycharm.md)
-- [Vscode Installation](./vscode.md)
+- [Pycharm Installation](../pycharm.md)
+- [Vscode Installation](../vscode.md)
