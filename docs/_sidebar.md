@@ -7,7 +7,7 @@
 * Python
 
   * [Quick Start](./Python/python.md)
-  * Basic
+  * [Basic](./Python/variable.md)
   * Advance
   * Web Scrap
   * Back-end

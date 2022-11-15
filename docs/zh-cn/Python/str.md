@@ -131,7 +131,7 @@ print(x + " " + y)
 
 结果：
 ```
-HelloWorld
+Hello World
 ```
 
 ## 在字符串中加入其它数据类型
